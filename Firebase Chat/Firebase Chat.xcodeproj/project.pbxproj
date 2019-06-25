@@ -8,29 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		96FE7CA62183CE44E1A51622 /* Pods_Firebase_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9C7947904D23A0210BB610 /* Pods_Firebase_Chat.framework */; };
+		EF39BCB622C2D284005F593E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF39BCB522C2D284005F593E /* GoogleService-Info.plist */; };
+		EF39BCBD22C2D689005F593E /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = EF39BCBC22C2D689005F593E /* Cartfile */; };
+		EF39BCC022C2D772005F593E /* InputBarAccessoryView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF39BCBE22C2D772005F593E /* InputBarAccessoryView.framework */; };
+		EF39BCC122C2D772005F593E /* MessageKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF39BCBF22C2D772005F593E /* MessageKit.framework */; };
+		EF39BCC522C2D98B005F593E /* ChatRoomsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF39BCC422C2D98B005F593E /* ChatRoomsTableViewController.swift */; };
 		EF5A349922C2A0B9009297D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A349822C2A0B9009297D3 /* AppDelegate.swift */; };
 		EF5A349E22C2A0B9009297D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5A349C22C2A0B9009297D3 /* Main.storyboard */; };
 		EF5A34A022C2A0BA009297D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5A349F22C2A0BA009297D3 /* Assets.xcassets */; };
 		EF5A34A322C2A0BA009297D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5A34A122C2A0BA009297D3 /* LaunchScreen.storyboard */; };
-		EF5A34AB22C2AA8D009297D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF5A34AA22C2AA8D009297D3 /* GoogleService-Info.plist */; };
-		EFE1C64922C2BF790071EBD2 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = EFE1C64822C2BF790071EBD2 /* Cartfile */; };
-		EFE1C64C22C2C4020071EBD2 /* MessageKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE1C64A22C2C4020071EBD2 /* MessageKit.framework */; };
-		EFE1C64D22C2C4020071EBD2 /* InputBarAccessoryView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE1C64B22C2C4020071EBD2 /* InputBarAccessoryView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D3107B0F36CEAEFB75957CD /* Pods-Firebase Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Chat.debug.xcconfig"; path = "Target Support Files/Pods-Firebase Chat/Pods-Firebase Chat.debug.xcconfig"; sourceTree = "<group>"; };
 		DC148CA2F54111246DF43A0B /* Pods-Firebase Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Chat.release.xcconfig"; path = "Target Support Files/Pods-Firebase Chat/Pods-Firebase Chat.release.xcconfig"; sourceTree = "<group>"; };
+		EF39BCB522C2D284005F593E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../.Trash/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EF39BCB922C2D4F0005F593E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EF39BCBC22C2D689005F593E /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		EF39BCBE22C2D772005F593E /* InputBarAccessoryView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InputBarAccessoryView.framework; path = Carthage/Build/iOS/InputBarAccessoryView.framework; sourceTree = "<group>"; };
+		EF39BCBF22C2D772005F593E /* MessageKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageKit.framework; path = Carthage/Build/iOS/MessageKit.framework; sourceTree = "<group>"; };
+		EF39BCC422C2D98B005F593E /* ChatRoomsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomsTableViewController.swift; sourceTree = "<group>"; };
 		EF5A349522C2A0B9009297D3 /* Firebase Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5A349822C2A0B9009297D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF5A349D22C2A0B9009297D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF5A349F22C2A0BA009297D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF5A34A222C2A0BA009297D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF5A34A422C2A0BA009297D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF5A34AA22C2AA8D009297D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		EFE1C64822C2BF790071EBD2 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
-		EFE1C64A22C2C4020071EBD2 /* MessageKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageKit.framework; path = Carthage/Build/iOS/MessageKit.framework; sourceTree = "<group>"; };
-		EFE1C64B22C2C4020071EBD2 /* InputBarAccessoryView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InputBarAccessoryView.framework; path = Carthage/Build/iOS/InputBarAccessoryView.framework; sourceTree = "<group>"; };
 		FB9C7947904D23A0210BB610 /* Pods_Firebase_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -40,8 +43,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				96FE7CA62183CE44E1A51622 /* Pods_Firebase_Chat.framework in Frameworks */,
-				EFE1C64C22C2C4020071EBD2 /* MessageKit.framework in Frameworks */,
-				EFE1C64D22C2C4020071EBD2 /* InputBarAccessoryView.framework in Frameworks */,
+				EF39BCC022C2D772005F593E /* InputBarAccessoryView.framework in Frameworks */,
+				EF39BCC122C2D772005F593E /* MessageKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +54,8 @@
 		7C749ED1407FFBCE96813212 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EFE1C64B22C2C4020071EBD2 /* InputBarAccessoryView.framework */,
-				EFE1C64A22C2C4020071EBD2 /* MessageKit.framework */,
+				EF39BCBE22C2D772005F593E /* InputBarAccessoryView.framework */,
+				EF39BCBF22C2D772005F593E /* MessageKit.framework */,
 				FB9C7947904D23A0210BB610 /* Pods_Firebase_Chat.framework */,
 			);
 			name = Frameworks;
@@ -65,6 +68,34 @@
 				DC148CA2F54111246DF43A0B /* Pods-Firebase Chat.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF39BCB722C2D4E2005F593E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A349C22C2A0B9009297D3 /* Main.storyboard */,
+				EF5A34A122C2A0BA009297D3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EF39BCB822C2D4F0005F593E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A349822C2A0B9009297D3 /* AppDelegate.swift */,
+				EF5A349F22C2A0BA009297D3 /* Assets.xcassets */,
+				EF5A34A422C2A0BA009297D3 /* Info.plist */,
+				EF39BCB922C2D4F0005F593E /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EF39BCC322C2D975005F593E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF39BCC422C2D98B005F593E /* ChatRoomsTableViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		EF5A348C22C2A0B9009297D3 = {
@@ -88,13 +119,11 @@
 		EF5A349722C2A0B9009297D3 /* Firebase Chat */ = {
 			isa = PBXGroup;
 			children = (
-				EFE1C64822C2BF790071EBD2 /* Cartfile */,
-				EF5A349822C2A0B9009297D3 /* AppDelegate.swift */,
-				EF5A349C22C2A0B9009297D3 /* Main.storyboard */,
-				EF5A349F22C2A0BA009297D3 /* Assets.xcassets */,
-				EF5A34A122C2A0BA009297D3 /* LaunchScreen.storyboard */,
-				EF5A34A422C2A0BA009297D3 /* Info.plist */,
-				EF5A34AA22C2AA8D009297D3 /* GoogleService-Info.plist */,
+				EF39BCC322C2D975005F593E /* ViewControllers */,
+				EF39BCB822C2D4F0005F593E /* Resources */,
+				EF39BCB722C2D4E2005F593E /* Storyboards */,
+				EF39BCB522C2D284005F593E /* GoogleService-Info.plist */,
+				EF39BCBC22C2D689005F593E /* Cartfile */,
 			);
 			path = "Firebase Chat";
 			sourceTree = "<group>";
@@ -110,8 +139,8 @@
 				EF5A349122C2A0B9009297D3 /* Sources */,
 				EF5A349222C2A0B9009297D3 /* Frameworks */,
 				EF5A349322C2A0B9009297D3 /* Resources */,
-				E21EB8EEAF0E5D1FFC2B502B /* [CP] Embed Pods Frameworks */,
-				EFE1C64E22C2C4230071EBD2 /* ShellScript */,
+				6E1F0B2870E2BB271F01EA6D /* [CP] Embed Pods Frameworks */,
+				EF39BCC222C2D782005F593E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -160,9 +189,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFE1C64922C2BF790071EBD2 /* Cartfile in Resources */,
+				EF39BCBD22C2D689005F593E /* Cartfile in Resources */,
 				EF5A34A322C2A0BA009297D3 /* LaunchScreen.storyboard in Resources */,
-				EF5A34AB22C2AA8D009297D3 /* GoogleService-Info.plist in Resources */,
+				EF39BCB622C2D284005F593E /* GoogleService-Info.plist in Resources */,
 				EF5A34A022C2A0BA009297D3 /* Assets.xcassets in Resources */,
 				EF5A349E22C2A0B9009297D3 /* Main.storyboard in Resources */,
 			);
@@ -193,7 +222,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E21EB8EEAF0E5D1FFC2B502B /* [CP] Embed Pods Frameworks */ = {
+		6E1F0B2870E2BB271F01EA6D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,7 +239,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firebase Chat/Pods-Firebase Chat-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EFE1C64E22C2C4230071EBD2 /* ShellScript */ = {
+		EF39BCC222C2D782005F593E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -238,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF39BCC522C2D98B005F593E /* ChatRoomsTableViewController.swift in Sources */,
 				EF5A349922C2A0B9009297D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,7 +421,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "Firebase Chat/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Firebase Chat/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -415,7 +445,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "Firebase Chat/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Firebase Chat/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
