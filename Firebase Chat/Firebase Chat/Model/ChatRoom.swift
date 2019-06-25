@@ -10,6 +10,7 @@ import Foundation
 import Firebase
 import MessageKit
 
+// MARK: - ChatRoom Model
 struct ChatRoom {
     
     var name: String?
@@ -19,6 +20,22 @@ struct ChatRoom {
     
 }
 
+// MARK: - Struct Message
+struct Message: MessageType {
+    
+    let chatRoom: ChatRoom?
+    var text: String
+    var displayName: String
+    var senderId: String
+    
+    var sender: SenderType { return Sender(senderId: senderId, displayName: displayName) }
+    var messageId: String
+    var sentDate: Date { return Date() }
+    var kind: MessageKind { return .text(text)}
+    
+}
+
+// MARK: - Making ChatRoom into dictionaries.
 extension ChatRoom {
     static func transformChatRoom(dictionary: [String : Any], key: String) -> ChatRoom {
         
