@@ -13,6 +13,7 @@
 		EF39BCC022C2D772005F593E /* InputBarAccessoryView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF39BCBE22C2D772005F593E /* InputBarAccessoryView.framework */; };
 		EF39BCC122C2D772005F593E /* MessageKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF39BCBF22C2D772005F593E /* MessageKit.framework */; };
 		EF39BCC522C2D98B005F593E /* ChatRoomsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF39BCC422C2D98B005F593E /* ChatRoomsTableViewController.swift */; };
+		EF39BCC822C2DB50005F593E /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF39BCC722C2DB50005F593E /* ChatRoom.swift */; };
 		EF5A349922C2A0B9009297D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A349822C2A0B9009297D3 /* AppDelegate.swift */; };
 		EF5A349E22C2A0B9009297D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5A349C22C2A0B9009297D3 /* Main.storyboard */; };
 		EF5A34A022C2A0BA009297D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5A349F22C2A0BA009297D3 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		EF39BCBE22C2D772005F593E /* InputBarAccessoryView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InputBarAccessoryView.framework; path = Carthage/Build/iOS/InputBarAccessoryView.framework; sourceTree = "<group>"; };
 		EF39BCBF22C2D772005F593E /* MessageKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageKit.framework; path = Carthage/Build/iOS/MessageKit.framework; sourceTree = "<group>"; };
 		EF39BCC422C2D98B005F593E /* ChatRoomsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomsTableViewController.swift; sourceTree = "<group>"; };
+		EF39BCC722C2DB50005F593E /* ChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
 		EF5A349522C2A0B9009297D3 /* Firebase Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5A349822C2A0B9009297D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF5A349D22C2A0B9009297D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -98,6 +100,14 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		EF39BCC622C2DB3A005F593E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF39BCC722C2DB50005F593E /* ChatRoom.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		EF5A348C22C2A0B9009297D3 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +129,7 @@
 		EF5A349722C2A0B9009297D3 /* Firebase Chat */ = {
 			isa = PBXGroup;
 			children = (
+				EF39BCC622C2DB3A005F593E /* Model */,
 				EF39BCC322C2D975005F593E /* ViewControllers */,
 				EF39BCB822C2D4F0005F593E /* Resources */,
 				EF39BCB722C2D4E2005F593E /* Storyboards */,
@@ -267,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF39BCC822C2DB50005F593E /* ChatRoom.swift in Sources */,
 				EF39BCC522C2D98B005F593E /* ChatRoomsTableViewController.swift in Sources */,
 				EF5A349922C2A0B9009297D3 /* AppDelegate.swift in Sources */,
 			);
